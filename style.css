@@ -1,0 +1,170 @@
+:root {
+    --orange: #DC5F00;
+    --sandy: #F1E5D1;
+    --buttons: #151515;
+    --bleu-buttons: #615EFC;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    width: 30%;
+    height: 500px;
+    background-color: var(--orange);
+    margin: 50px auto;
+    border: 3px solid var(--buttons);
+    border-radius: 30px;
+    box-shadow: 0 0 60px var(--buttons);
+}
+
+.screen {
+    position: relative;
+    width: 80%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    border: 2px solid var(--buttons);
+    border-radius: 10px;
+    background-color: var(--sandy);
+    font-family: "Jersey 10", sans-serif;;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+}
+
+.screen-2 {
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    width: 50px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    display: none;
+}
+
+.screen-1 {
+    position: absolute;
+    right: 10px;
+    width: 90%;
+    height: 90%;
+}
+
+.btns_container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 10%;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: var(--buttons);
+    color: var(--sandy);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: 2px solid var(--sandy);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.btn1 {
+    background-color: #FF0000;
+}
+
+.btns_container2 {
+    display: grid;
+    grid-template-columns: repeat(4 1fr);
+    grid-template-rows: repeat(4 1fr);
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 50%;
+}
+
+.btn2 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.btn3 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.bnt6 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.btn9 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.btn12 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+.btn4 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.btn7 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.btn10 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.btn17 {
+    grid-column: 3/4;
+    grid-row: 4/5;
+    background-color: #FFC100;
+}
+.btn5 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.btn8 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.btn11 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.btn13 {
+    grid-column: 4/5;
+    grid-row: 4/5;
+    background-color: var(--bleu-buttons);
+}
+.btn14 {
+    grid-column: 4/5;
+    grid-row: 3/4;
+    background-color: var(--bleu-buttons);
+}
+.btn15 {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    background-color: var(--bleu-buttons);
+}
+.btn16 {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    background-color: var(--bleu-buttons);
+}
